@@ -51,6 +51,8 @@ auth-portal/
 ```bash
 git clone https://github.com/Said-Amarire/auth-portal-responsive.git
 
+
+
 2. Navigate to the project folder
 cd auth-portal-responsive
 

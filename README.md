@@ -49,7 +49,7 @@ Includes:
 
 ---
 
-### 📱 Responsive Design
+## 📱 Responsive Design
 
 **This project adapts seamlessly to:**
 
@@ -61,7 +61,7 @@ Includes:
 
 Resize your browser or test on real devices to see the animations and layout in action.
 
-### 🛠️ Built With
+## 🛠️ Built With
 
 HTML5 – semantic structure
 
@@ -69,7 +69,7 @@ CSS3 – modern styling & animations
 
 JavaScript (ES6) – interactivity, validation, background effects
 
-### 🎨 Customization
+## 🎨 Customization
 
 Colors & theme → tweak CSS variables inside :root (e.g., --amber-glow, --bg-color)
 
@@ -79,7 +79,7 @@ Fields & layout → edit the forms in each HTML file
 
 Back-end integration → connect API endpoints when ready
 
-### 📌 Roadmap
+## 📌 Roadmap
 
 🌐 Multi-language support (i18n)
 
@@ -91,20 +91,20 @@ Back-end integration → connect API endpoints when ready
 
 🎉 Enhanced animations & accessibility improvements (a11y)
 
-### 🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to open an issue
  or a pull request.
 
-### 📜 License
+## 📜 License
 
 Released under the MIT License.
 You are free to use, modify, and distribute this project with proper attribution.
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 
-***Amarire Dev***
+**Amarire Dev**
 
 🌐 **Website:** amarire.dev
 

@@ -20,19 +20,13 @@ Includes:
 
 ## 📂 Project Structure  
 
-auth-portal-responsive/
-
- ─ login.html
- 
- ─ register.html
- 
- ─ forgot-password.html
-
- ─ css/style.css
-
- ─ js/script.js
-
- ─ images/login.jpg + register.jpg + ...
+-auth-portal-responsive/
+  ─ login.html
+  ─ register.html
+  ─ forgot-password.html
+  ─ css/style.css
+  ─ js/script.js
+  ─ images/login.jpg + register.jpg + ...
 
 
 ---

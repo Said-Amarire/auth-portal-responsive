@@ -1,131 +1,110 @@
-# 🔑 Auth Portal Responsive
+# 🔑 Auth Portal Responsive  
 
-A fully responsive **Authentication Portal** that includes:  
-- **Login Page** 🔒  
-- **Register Page** 📝  
-- **Forgot Password Page** 🔑  
+A modern and fully responsive **Authentication Portal** built with **HTML, CSS, and JavaScript**.  
+Includes:  
+- 🔒 **Login Page**  
+- 📝 **Register Page**  
+- 🔑 **Forgot Password Page**  
 
-Designed with **HTML**, **CSS**, and **JavaScript** to ensure a **smooth, modern, and mobile-friendly experience**.  
-👉 **Live Demo:** https://amarire.dev/demo/portals-demo/auth-portal/login.html
+👉 **Live Demo:** [Open Demo](https://amarire.dev/demo/portals-demo/auth-portal/login.html)
+
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots  
 
 | Login | Register | Forgot Password |
-| --- | --- | --- |
-| ![Login Preview](https://github.com/Said-Amarire/auth-portal-responsive/blob/main/images/login.jpg) | ![Forgot Password Preview](https://github.com/Said-Amarire/auth-portal-responsive/blob/main/images/register.jpg) | ![Forgot Password Preview](https://github.com/Said-Amarire/auth-portal-responsive/blob/main/images/forgot%20password.jpg) |
+| ----- | -------- | ---------------- |
+| ![Login Preview](https://github.com/Said-Amarire/auth-portal-responsive/blob/main/images/login.jpg) | ![Register Preview](https://github.com/Said-Amarire/auth-portal-responsive/blob/main/images/register.jpg) | ![Forgot Password Preview](https://github.com/Said-Amarire/auth-portal-responsive/blob/main/images/forgot%20password.jpg) |
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure  
 
-─ login.html
+auth-portal-responsive/
 
-- register.html
-  
-─ forgot-password.html
+ ─ login.html
+ ─ register.html
+ ─ forgot-password.html
 
-─ css/
+ ─ css/style.css
 
-   ─ style.css
-   
-─ js/
+ ─ js/script.js
 
-   ─ script.js
+ ─ images/login.jpg + register.jpg + ...
 
 
 ---
 
-## ✨ Features
+## ✨ Features  
 
 - ✅ **Responsive design** for mobile, tablet, and desktop  
-- 🔒 **Login** with styled, animated form  
+- 🔒 **Login** with animated, styled form  
 - 📝 **Register** with full name, username, email, password + confirm password  
-- 🔑 **Forgot Password** with reset flow (frontend)  
+- 🔑 **Forgot Password** with frontend reset flow  
 - 👀 **Password toggle** (show/hide with eye icons)  
-- 🧠 **Client-side validation** (e.g., password match & basic checks)  
-- 🎨 **Modern UI** (frosted glass, amber glow, smooth animations)  
-- ⚡ **Lightweight & fast** (pure HTML/CSS/JS, no frameworks)  
+- 🧠 **Client-side validation** (e.g., password match, email format)  
+- 🎨 **Modern UI** (glassmorphism, amber glow, smooth transitions)  
+- ⚡ **Lightweight & fast** (pure HTML/CSS/JS, no external frameworks)  
 
 ---
 
-## 🚀 How to Use
+### 📱 Responsive Design
 
-1) **Clone the repository**  
+**This project adapts seamlessly to:**
 
+📲 Mobile devices
 
+💻 Tablets
 
-2. Navigate to the project folder
-cd auth-portal-responsive
+🖥️ Desktops
 
-3. Open any HTML file in your browser
+Resize your browser or test on real devices to see the animations and layout in action.
 
-- login.html
-- register.html
-- forgot-password.html
-
-**You can also use a simple local server:**
-
-python -m http.server 8080
-
-Then open http://localhost:8080
- in your browser
-
-📱 Responsive Design
-
-This project adapts seamlessly to different screen sizes:
-
-📲 Mobile
-
-💻 Tablet
-
-🖥️ Desktop
-
-Resize your browser or test on real devices to experience the layout and animations.
-
-🛠️ Built With
+### 🛠️ Built With
 
 HTML5 – semantic structure
 
 CSS3 – modern styling & animations
 
-JavaScript (ES6) – interactivity, validation, and background effects
+JavaScript (ES6) – interactivity, validation, background effects
 
-🧩 Customization
+### 🎨 Customization
 
-🎨 Colors & theme: tweak CSS variables in :root (e.g., --amber-glow, --bg-color)
+Colors & theme → tweak CSS variables inside :root (e.g., --amber-glow, --bg-color)
 
-⚙️ Validation rules: adjust checks in js/script.js (or per-page JS files)
+Validation rules → adjust checks inside js/script.js
 
-🧱 Fields & layout: edit the forms in the respective HTML files
+Fields & layout → edit the forms in each HTML file
 
-🌐 Routing/Integration: wire up API endpoints in JS when back-end is ready
+Back-end integration → connect API endpoints when ready
 
-📌 Roadmap / Future Improvements
+### 📌 Roadmap
 
 🌐 Multi-language support (i18n)
 
-🔑 Back-end integration (PHP / Node.js / Django / Laravel)
+🔑 Back-end integration (PHP, Node.js, Django, Laravel)
 
-🔗 Social logins (Google, GitHub, etc.)
+🔗 Social logins (Google, GitHub, Facebook)
 
-🧾 Form-level error summaries & inline hints
+🧾 Inline hints & error summaries
 
-🎉 Enhanced micro-animations & accessibility improvements (a11y)
+🎉 Enhanced animations & accessibility improvements (a11y)
 
-🤝 Contributing
+### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Open an issue or pull request here: https://github.com/Said-Amarire/auth-portal-responsive/issues
+Feel free to open an issue
+ or a pull request.
 
-📜 License
+### 📜 License
 
 Released under the MIT License.
-You’re free to use, modify, and distribute this project with attribution.
+You are free to use, modify, and distribute this project with proper attribution.
 
-👨‍💻 Author
+### 👨‍💻 Author
 
-Amarire Dev
-Website: https://amarire.dev
+***Amarire Dev***
 
-GitHub: https://github.com/Said-Amarire
+🌐 **Website:** amarire.dev
+
+💻 **GitHub:** @Said-Amarire

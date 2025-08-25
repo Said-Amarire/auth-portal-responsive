@@ -1,0 +1,190 @@
+:root {
+  --bg-color: #0d0c1b;
+  --card-bg: rgba(255, 255, 255, 0.05);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --amber-glow: #FFA500;
+  --text-main: #F0F0F0;
+  --text-muted: #9BA4AE;
+  --button-color: #FFA500;
+  --radius-lg: 25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  overflow: hidden;
+  position: relative;
+}
+
+.background-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.portal-container {
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  max-width: 450px;
+  padding: 50px 40px;
+  border-radius: var(--radius-lg);
+  background: var(--card-bg);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.portal-container::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: var(--radius-lg);
+  background: conic-gradient(transparent, var(--amber-glow) 10%, transparent 20%, transparent 80%, var(--amber-glow) 90%, transparent);
+  filter: blur(12px);
+  z-index: -1;
+  opacity: 0.6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+  color: var(--text-main);
+  text-shadow: 0 0 10px var(--amber-glow);
+}
+
+.field {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.field input {
+  width: 100%;
+  padding: 16px 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: var(--text-main);
+  font-size: 15px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.field input:focus {
+  border-color: var(--amber-glow);
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+}
+
+.field label {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.field input:focus + label,
+.field input:not(:placeholder-shown) + label {
+  top: -12px;
+  left: 10px;
+  font-size: 12px;
+  background-color: var(--bg-color);
+  padding: 0 5px;
+  color: var(--amber-glow);
+}
+
+.toggle-password {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+}
+
+.toggle-password svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--text-muted);
+  transition: fill 0.3s ease;
+}
+
+.toggle-password:hover svg {
+  fill: var(--amber-glow);
+}
+
+.btn {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: 8px;
+  background: var(--button-color);
+  color: var(--bg-color);
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(255, 165, 0, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 165, 0, 0.6);
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.links a {
+  color: var(--text-muted);
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: var(--amber-glow);
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-5px); }
+  40% { transform: translateX(5px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.3s;
+}

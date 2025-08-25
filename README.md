@@ -65,7 +65,7 @@ cd auth-portal-responsive
 
    📱 Responsive Design
 
-**This project adapts seamlessly to:**
+### This project adapts seamlessly to:
 
 - 📲 Mobile devices
 

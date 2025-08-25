@@ -13,7 +13,7 @@ Designed with **HTML**, **CSS**, and **JavaScript** to ensure a **smooth, modern
 
 | Login | Register | Forgot Password |
 | --- | --- | --- |
-| ![Login Preview](https://via.placeholder.com/800x420.png?text=Login+Preview) | ![Register Preview](https://via.placeholder.com/800x420.png?text=Register+Preview) | ![Forgot Password Preview](images/forgot password.jpg) |
+| ![Login Preview](https://via.placeholder.com/800x420.png?text=Login+Preview) | ![Register Preview]([https://via.placeholder.com/800x420.png](https://github.com/Said-Amarire/auth-portal-responsive/blob/main/images/register.jpg)?text=Register+Preview) | ![Forgot Password Preview](images/forgot password.jpg) |
 
 ---
 

@@ -48,8 +48,6 @@ auth-portal/
 ## 🚀 How to Use
 
 1) **Clone the repository**  
-```bash
-git clone https://github.com/Said-Amarire/auth-portal-responsive.git
 
 
 

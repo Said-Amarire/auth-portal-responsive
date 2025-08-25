@@ -21,7 +21,6 @@ Includes:
 ## 📂 Project Structure  
 
 auth-portal-responsive/
-
  ─ login.html
  ─ register.html
  ─ forgot-password.html

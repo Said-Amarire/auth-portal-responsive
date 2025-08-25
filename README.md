@@ -6,8 +6,7 @@ A fully responsive **Authentication Portal** that includes:
 - **Forgot Password Page** 🔑  
 
 Designed with **HTML**, **CSS**, and **JavaScript** to ensure a **smooth, modern, and mobile-friendly experience**.  
-👉 **Live Demo:** https://amarire.dev/demo/auth-portal/
-
+👉 **Live Demo:** https://amarire.dev/demo/portals-demo/auth-portal/login.html
 ---
 
 ## 📸 Screenshots

@@ -19,14 +19,13 @@ Designed with **HTML**, **CSS**, and **JavaScript** to ensure a **smooth, modern
 
 ## 📂 Project Structure
 
-auth-portal/
-├── login.html
-├── register.html
-├── forgot-password.html
-├── css/
-│ ├── style.css
-└── js/
-├── script.js
+─ login.html
+─ register.html
+─ forgot-password.html
+─ css/
+   ─ style.css
+─ js/
+   ─ script.js
 
 
 ---

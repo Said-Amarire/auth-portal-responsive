@@ -27,17 +27,15 @@ auth-portal-responsive/
 ├── forgot-password.html
 │
 ├── css/
-│   └── style.css
+│ └── style.css
 │
 ├── js/
-│   └── script.js
+│ └── script.js
 │
 └── images/
-    ├── login.jpg
-    ├── register.jpg
-    └── forgot-password.jpg
-
-
+├── login.jpg
+├── register.jpg
+└── forgot-password.jpg
 ---
 
 ## ✨ Features  
